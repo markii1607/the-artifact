@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bush
+    uniqueID: 861406079
+    locked: 0
+  - name: Player
+    uniqueID: 353932575
+    locked: 0
