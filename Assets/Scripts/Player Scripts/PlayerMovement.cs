@@ -50,4 +50,13 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetAxisRaw(MOVEMENT_AXIS_X) == -1)
             sr.flipX = true;
     }
+
+    // private void OnTriggerEnter2D(Collider2D other)
+    // {
+    //     if (other.CompareTag("Bush"))
+    //     {
+    //         Debug.Log("The value of fruit is: " +
+    //             other.gameObject.GetComponent<BushFruits>().HarvestFruit());
+    //     }
+    // }
 }
